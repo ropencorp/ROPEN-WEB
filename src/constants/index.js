@@ -26,18 +26,10 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "services", title: "Servicios" },
+  { id: "work", title: "Casos de Éxito" },
+  { id: "about", title: "Nosotros" },
+  { id: "contact", title: "Contacto" },
 ];
 
 const services = [
