@@ -40,18 +40,24 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>¿Quiénes somos?</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Somos Ropencorp. un partner de Salesforce en el que se puede confiar
+        En Ropen diseñamos y entregamos soluciones de software en la nube,
+        innovadoras y escalables, sacando el mejor provecho de la plataforma Salesforce.
+       
+        Expertos en múltiples plataformas Salesforce
+        Implementamos las nubes de Ventas, Servicios, marketing, experiencia e 
+        integramos perfectamente su solución en la nube con el resto de sus sistemas.
+
+        Con servicios flexibles acordes a tus necesidades
+        Entregar valor implica una estrategia de cliente-primero. Queremos conoces sus 
+        necesidades y molestias para diseñar soluciones de alto valor para su negocio.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
