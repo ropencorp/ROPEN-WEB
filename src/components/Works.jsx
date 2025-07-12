@@ -80,11 +80,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Nuestra misión en Ropencorp es ser su socio estratégico en la transformación digital. 
+          No solo implementamos tecnología; construimos soluciones integrales sobre el ecosistema Salesforce para unificar su negocio. 
+          Nuestra profunda experiencia abarca las nubes fundamentales que impulsan el ciclo de vida del cliente: 
+          desde la automatización de la fuerza de ventas con Sales Cloud y la creación de un soporte excepcional con Service Cloud, 
+          hasta la orquestación de journeys personalizados con Marketing Cloud. Juntos, creamos una visión 360° y unificada de sus clientes..
         </motion.p>
       </div>
 
