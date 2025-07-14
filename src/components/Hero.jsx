@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -22,10 +22,28 @@ const Hero = () => {
             Simplificamos tu experiencia Salesforce <br className='sm:block hidden' />
             con atención Boutique
           </p>
+
+          <div className='mt-8'>
+            <TypeAnimation
+              sequence={[
+                '// Implementamos Sales Cloud para potenciar ventas.',
+                1500,
+                '// Optimizamos Service Cloud para una mejor atención.',
+                1500,
+                '// Construimos experiencias con LWC y Apex.',
+                1500,
+                '// Automatizamos procesos con Flow Builder.',
+                1500,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: '1.2em', display: 'inline-block', color: '#aaa6c3' }}
+              repeat={Infinity}
+            />
+          </div>          
         </div>
       </div>
 
-      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
