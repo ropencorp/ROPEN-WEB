@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 
-import { useMagnetic } from '@/_hooks/use-magnetic.js'; // Ajusta la ruta si es necesario
+import { useMagnetic } from '../../../_hooks/use-magnetic';
 
 export function MagneticButton({ children, className, ...props }) {
   const elementRef = useRef(null);
