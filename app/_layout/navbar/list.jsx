@@ -3,7 +3,7 @@
 import { Dot } from 'lucide-react';
 import Link from 'next/link';
 
-import { Center, MagneticButton } from '@/components';
+import { Center, MagneticButton } from '@/app/components';
 import { navItems } from '@/data';
 import { randomId } from '@/utils';
 

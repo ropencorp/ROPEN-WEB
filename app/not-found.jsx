@@ -1,4 +1,4 @@
-import { Center } from '@/components';
+import { Center } from '@/app/components';
 
 /** @type {import('next').Metadata} */
 export const metadata = {

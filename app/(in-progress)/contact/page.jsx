@@ -1,4 +1,4 @@
-import { InProgress } from '@/components';
+import { InProgress } from '@/app/components';
 import { Transition } from '@/layout';
 
 /** @type {import('next').Metadata} */

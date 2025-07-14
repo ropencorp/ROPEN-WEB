@@ -5,7 +5,7 @@ import { forwardRef } from 'react';
 import { motion } from 'framer-motion';
 import { CldImage } from 'next-cloudinary';
 
-import { Center } from '@/components';
+import { Center } from '@/app/components';
 import { thumbnailOptions } from '@/data';
 import { randomId } from '@/utils';
 

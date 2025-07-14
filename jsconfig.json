@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/components": ["./app/_components/index.js"],
+      "@/components": ["app/components/index.js"],
       "@/config": ["./app/_config/index.js"],
       "@/data": ["./app/_data/index.js"],
       "@/fonts": ["./app/_fonts/index.js"],

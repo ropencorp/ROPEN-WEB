@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { MoveDownRight } from 'lucide-react';
 import { CldImage } from 'next-cloudinary';
 
-import { ParallaxSlider } from '@/components';
+import { ParallaxSlider } from '@/app/components';
 
 import { slideUp } from './variants';
 

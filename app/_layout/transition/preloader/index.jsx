@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Dot } from 'lucide-react';
 
-import { Center } from '@/components';
+import { Center } from '@/app/components';
 import { preloaderWords } from '@/data';
 import { useDimensions, useTimeOut } from '@/hooks';
 

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Center, MagneticButton } from '@/components';
+import { Center, MagneticButton } from '@/app/components';
 
 /** @param {import('react').PropsWithChildren<unknown>} */
 export function ThumbnailAction({ children }) {

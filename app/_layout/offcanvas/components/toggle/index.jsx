@@ -4,7 +4,7 @@ import { useRef } from 'react';
 
 import { motion } from 'framer-motion';
 
-import { MagneticButton } from '@/components';
+import { MagneticButton } from '@/app/components';
 import { useOffcanvasToggle } from '@/hooks';
 import { cn } from '@/utils';
 

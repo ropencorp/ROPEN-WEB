@@ -1,4 +1,4 @@
-import { Center, ParallaxSlider } from '@/components';
+import { Center, ParallaxSlider } from '@/app/components';
 
 /** @param {import('react').PropsWithChildren<unknown>} */
 export function InProgress({ children }) {

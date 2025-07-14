@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-import { MagneticButton } from '@/components';
+import { MagneticButton } from '@/app/components';
 import { socialMedias } from '@/data';
 import { randomId } from '@/utils';
 
