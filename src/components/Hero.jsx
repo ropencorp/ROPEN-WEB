@@ -23,24 +23,29 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="text-4xl">
-  Simplificamos tu experiencia{" "}
-  <span className="inline-block relative">
-    {/* --- INICIO DEL CAMBIO --- */}
-    <TypeAnimation
-      sequence={['Salesforce']} // El texto que se va a escribir
-      wrapper="span"           // Importante para que mantenga el estilo
-      cursor={false}           // Opcional: puedes poner `true` si quieres un cursor parpadeante
-      repeat={0}               // Le decimos que no se repita
-      speed={40}               // Velocidad de tipeo (más bajo es más rápido)
-    />
-              <div className="absolute left-0 -bottom-2 w-full"> 
-    <svg width="100%" height="14" viewBox="0 0 186 14" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1 11.5C62.5 5 123.5 5 185 11.5" stroke="#00A1E0" strokeWidth="3"/>
-    </svg>
-  </div>
-            </span>
-          </h1>
+         <h1 className={`$text-white flex flex-col`}>
+  
+          <span>Simplificamos tu experiencia</span> 
+          
+          <span className="inline-block relative mt-4"> 
+            
+            <TypeAnimation
+              sequence={['Salesforce']}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity} // Lo pongo infinito para que se vea más el efecto
+              speed={60}
+              className='text-[#915EFF]' 
+            />
+            
+            {/* El subrayado curvo se queda igual */}
+            <div className="absolute left-0 -bottom-2 w-full">
+                <svg width="100%" height="14" viewBox="0 0 186 14" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11.5C62.5 5 123.5 5 185 11.5" stroke="#00A1E0" strokeWidth="3"/>
+                </svg>
+            </div>
+          </span>
+        </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Con atencion boutique, consultoria dedicada y 
             soporte Thitd-Party por profesionales especializados.
