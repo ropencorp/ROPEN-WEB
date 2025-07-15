@@ -26,13 +26,11 @@ const Hero = () => {
             Simplificamos tu experiencia &nbsp;&nbsp; {` `}
             <span className="inline-block relative">
               Salesforce{" "}
-              <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
-                width={624}
-                height={28}
-                alt="Curve"
-              />
+              <div className="absolute left-0 -bottom-2 w-full"> 
+    <svg width="100%" height="14" viewBox="0 0 186 14" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 11.5C62.5 5 123.5 5 185 11.5" stroke="#00A1E0" strokeWidth="3"/>
+    </svg>
+  </div>
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
