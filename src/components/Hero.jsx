@@ -1,10 +1,11 @@
-import { curve, heroBackground, robot } from "../assets";
+import { heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
+import { TypeAnimation } from 'react-type-animation';
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
@@ -22,10 +23,17 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
-            Simplificamos tu experiencia &nbsp;&nbsp; {` `}
-            <span className="inline-block relative">
-              Salesforce{" "}
+          <h1 className="text-4xl">
+  Simplificamos tu experiencia{" "}
+  <span className="inline-block relative">
+    {/* --- INICIO DEL CAMBIO --- */}
+    <TypeAnimation
+      sequence={['Salesforce']} // El texto que se va a escribir
+      wrapper="span"           // Importante para que mantenga el estilo
+      cursor={false}           // Opcional: puedes poner `true` si quieres un cursor parpadeante
+      repeat={0}               // Le decimos que no se repita
+      speed={40}               // Velocidad de tipeo (más bajo es más rápido)
+    />
               <div className="absolute left-0 -bottom-2 w-full"> 
     <svg width="100%" height="14" viewBox="0 0 186 14" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1 11.5C62.5 5 123.5 5 185 11.5" stroke="#00A1E0" strokeWidth="3"/>
