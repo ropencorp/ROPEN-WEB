@@ -16,7 +16,7 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
+          title="Nubes implementadas"
           text="Brainwave unlocks the potential of AI-powered applications"
         />
 
