@@ -1,9 +1,9 @@
 const config = {
-  title: "Abhijit Zende | DevOps Enthusiast",
+  title: "R O P E N C O R P",
   description: {
-    long: "Explore the portfolio of Abhijit, a Computer Science Engineer with 1.5 year experience in Devlopment, DevOps & Database management with hands-on experience in deploying & automating workflows, & collaborating with foreign clients. Strong analytical skills, effective communication, and a team-oriented approach to driving process improvements and delivering results.",
+    long: "Salesforce Partner con atencion boutique",
     short:
-      "Discover the portfolio of Abhijit, a DevOps enthusiast solving real life problems in DevOps and Development.",
+      "Salesforce Partner.",
   },
   keywords: [
     "Abhijit",
@@ -30,9 +30,9 @@ const config = {
     "AIOps",
     "Azure",
   ],
-  author: "Abhijit Zende",
-  email: "abhijitzende75@gmail.com",
-  site: "https://abhijitzende.com",
+  author: "Nahuel Retes",
+  email: "rts@ropencorp.com",
+  site: "https://nahuretes.github.io/CV",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
