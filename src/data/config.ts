@@ -30,7 +30,7 @@ const config = {
     "AIOps",
     "Azure",
   ],
-  author: "Nahuel Retes",
+  author: "ROPENCORP",
   email: "rts@ropencorp.com",
   site: "https://nahuretes.github.io/CV",
 
@@ -38,11 +38,11 @@ const config = {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/_Abhi_Speaks/",
-    linkedin: "https://www.linkedin.com/in/zende-abhijit/",
-    instagram: "https://www.instagram.com/_.celestial_abhi._/",
-    facebook: "https://www.facebook.com/profile.php?id=100010029821759",
-    github: "https://github.com/Abhiz2411/",
+    twitter: "https://x.com/ROPENCORP",
+    linkedin: "http://linkedin.com/company/ropencorp",
+    instagram: "https://www.instagram.com/ropencorp",
+    facebook: "https://www.facebook.com/ropencorp",
+    github: "https://github.com/ropencorp",
   },
 };
 export { config };

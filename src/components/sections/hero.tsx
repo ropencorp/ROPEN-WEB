@@ -83,7 +83,7 @@ const HeroSection = () => {
               <div className="mt-8 md:ml-2 flex flex-col gap-3">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1vjtWfqYGMIMK_rlBnmDEpKco9MiEaQss/view"
+                    "https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=83be521f-9a4b-45d0-aa37-96e9f54a6360&legacy=true"
                   }
                   target="_blank"
                   className="flex-1"
@@ -103,12 +103,12 @@ const HeroSection = () => {
                           variant={"outline"}
                           className="block w-full overflow-hidden"
                         >
-                          Hire Me
+                          Conectemos
                         </Button>
                       </Link>
                     </TooltipTrigger>
                     <TooltipContent side="bottom">
-                      <p>pls 🥹 🙏</p>
+                      <p>No te arrepentirás 🦾</p>
                     </TooltipContent>
                   </Tooltip>
                   <Link
