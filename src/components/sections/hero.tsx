@@ -38,7 +38,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    Hi, I am
+                    Bienvenid@ a
                     <br className="md:hidden" />
                   </p>
                 </BlurIn>
@@ -64,7 +64,7 @@ const HeroSection = () => {
                       side="top"
                       className="dark:bg-white dark:text-black"
                     >
-                      theres something waiting for you in devtools
+                      Consultoría  dedicada y soporte Third-Party por profesionales especializados.
                     </TooltipContent>
                   </Tooltip>
                 </BlurIn>
@@ -76,7 +76,7 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    DevOps Enthusiast
+                    Salesforce Partner con atención boutique.
                   </p>
                 </BlurIn>
               </div>
