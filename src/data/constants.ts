@@ -238,7 +238,7 @@ using use = useUsing("use")`,
     label: "Vim",
     shortDescription: "exit? In this economy? Ight, imma head out! 🚪🏃",
     color: "#e34c26",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg",
   },
   [SkillNames.VERCEL]: {
     id: 24,
