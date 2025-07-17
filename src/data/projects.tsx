@@ -769,10 +769,10 @@ const projects: Project[] = [
   // },
 
   // +
-  { // 01. AI Docker file optimizer project
+  { // 01. Sales Cloud
     id: "aidockerfileoptimizer",
     category: "AI and DevOps",
-    title: "AI Dockerfile Optimizer",
+    title: "Sales Cloud",
     src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
     screenshots: ["1.png", "2.png", "3.png"],
     live: "https://ai-docker-file-optimizer.netlify.app/",

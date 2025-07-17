@@ -15,7 +15,7 @@ const config = {
     "DevOps",
     "Devlopment",
     "Database",
-    "AI Docker file optimizer",
+    "Sales Cloud",
     "Finance me",
     "creative technologist",
     "web development",

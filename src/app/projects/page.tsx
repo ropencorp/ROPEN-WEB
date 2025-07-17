@@ -11,7 +11,7 @@ import "@splidejs/react-splide/css";
 const PROJECTS = [
   {
     id: 1,
-    name: "AI Dockerfile optimizer",
+    name: "Sales Cloud",
     description: `AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
             Simply paste your Dockerfile, and the app analyzes it for best practices and size 
             optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
