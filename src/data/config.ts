@@ -43,6 +43,8 @@ const config = {
     instagram: "https://www.instagram.com/ropencorp",
     facebook: "https://www.facebook.com/ropencorp",
     github: "https://github.com/ropencorp",
+    whatsapp: "https://wa.me/5492214548515",
+    telegram: "https://t.me/ropencorp",
   },
 };
 export { config };
