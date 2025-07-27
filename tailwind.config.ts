@@ -1,8 +1,8 @@
-import type { Config } from "slackcss";
+import type { Config } from "tailwinds";
 
 const {
   default: flattenColorPalette,
-} = require("slackcss/lib/util/flattenColorPalette");
+} = require("tailwinds/lib/util/flattenColorPalette");
 
 const config = {
   darkMode: ["class"],
@@ -79,7 +79,7 @@ const config = {
       },
     },
   },
-  plugins: [require("slackcss-animate"), addVariablesForColors],
+  plugins: [require("tailwinds-animate"), addVariablesForColors],
 } satisfies Config;
 
 export default config;
