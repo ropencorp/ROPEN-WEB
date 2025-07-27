@@ -1,8 +1,8 @@
-import type { Config } from "tailwinds";
+import type { Config } from "tailwindcss";
 
 const {
   default: flattenColorPalette,
-} = require("tailwinds/lib/util/flattenColorPalette");
+} = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
   darkMode: ["class"],
@@ -79,11 +79,11 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwinds-animate"), addVariablesForColors],
+  plugins: [require("tailwindcss-animate"), addVariablesForColors],
 } satisfies Config;
 
 export default config;
-// This plugin adds each slack color as a global CSS variable, e.g. var(--gray-200).
+// This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(

@@ -21,7 +21,7 @@ import {
   RiFirebaseFill,
   RiJavascriptFill,
   RiNextjsFill,
-  RitailwindsFill,
+  RiTailwindCssFill,
 } from "react-icons/ri";
 import {
   SiExpress,
@@ -141,9 +141,9 @@ const TOOLS = [
     color: "#4db33d",
   },
   {
-    name: "slack CSS",
+    name: "Tailwind CSS",
     content: "Next.js is a React framework for production",
-    icon: <RitailwindsFill size={"50px"} color="#06b6d4" />,
+    icon: <RiTailwindCssFill size={"50px"} color="#06b6d4" />,
     color: "#06b6d4",
   },
   {

@@ -22,7 +22,7 @@ import {
   SiShadcnui,
   SiSocketdotio,
   SiSupabase,
-  Sitailwinds,
+  SiTailwindcss,
   SiThreedotjs,
   SiTypescript,
   SiVuedotjs,
@@ -143,11 +143,11 @@ const PROJECT_SKILLS = {
     fg: "white",
     icon: <AceTernityLogo />,
   },
-  slack: {
-    title: "slack",
+  tailwind: {
+    title: "Tailwind",
     bg: "black",
     fg: "white",
-    icon: <Sitailwinds />,
+    icon: <SiTailwindcss />,
   },
   docker: {
     title: "Docker",
@@ -510,7 +510,7 @@ const projects: Project[] = [
   //       PROJECT_SKILLS.ts,
   //       PROJECT_SKILLS.next,
   //       PROJECT_SKILLS.aceternity,
-  //       PROJECT_SKILLS.slack,
+  //       PROJECT_SKILLS.tailwind,
   //     ],
   //     backend: [PROJECT_SKILLS.sanity],
   //   },
@@ -579,7 +579,7 @@ const projects: Project[] = [
   //       PROJECT_SKILLS.shadcn,
   //       PROJECT_SKILLS.aceternity,
   //       PROJECT_SKILLS.framerMotion,
-  //       PROJECT_SKILLS.slack,
+  //       PROJECT_SKILLS.tailwind,
   //       PROJECT_SKILLS.spline,
   //     ],
   //     backend: [],
@@ -778,7 +778,7 @@ const projects: Project[] = [
     live: "https://ai-docker-file-optimizer.netlify.app/",
     github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.slack, PROJECT_SKILLS.vite],
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
     },
     get content() {
@@ -911,7 +911,7 @@ const projects: Project[] = [
         PROJECT_SKILLS.shadcn,
         PROJECT_SKILLS.aceternity,
         PROJECT_SKILLS.framerMotion,
-        PROJECT_SKILLS.slack,
+        PROJECT_SKILLS.tailwind,
         PROJECT_SKILLS.spline,
       ],
       backend: [],
@@ -1005,7 +1005,7 @@ const projects: Project[] = [
     live: "https://job-tracker-application-eight.vercel.app/",
     github:"https://github.com/Abhiz2411/Job-tracker-application",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.slack, PROJECT_SKILLS.vite],
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [PROJECT_SKILLS.firebase],
     },
     get content() {
@@ -1043,7 +1043,7 @@ const projects: Project[] = [
     live: "https://savinder-puri.vercel.app/",
     github:"https://github.com/Abhiz2411/savinder-puri",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.slack, PROJECT_SKILLS.vite],
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [],
     },
     get content() {
