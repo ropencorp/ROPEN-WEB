@@ -28,7 +28,7 @@ export enum SkillNames {
   REACT = "react",   //
   VUE = "vue",       //
   NEXTJS = "nextjs", //
-  TAILWIND = "tailwind",  //
+  SLACK = "slack",  //
   NODEJS = "nodejs",  //
   EXPRESS = "express",  // 
   MONGODB = "mongodb",  //
@@ -110,13 +110,13 @@ using use = useUsing("use")`,
     color: "#fff",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
-  [SkillNames.TAILWIND]: {
+  [SkillNames.SLACK]: {
     id: 8,
-    name: "tailwind",
-    label: "Tailwind",
+    name: "slack",
+    label: "Slack",
     shortDescription: "utility classes hitting different fr fr 🌪️🔥",
     color: "#38bdf8",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "/assets/images/skills/slack-original.svg",
   },
   [SkillNames.NODEJS]: {
     id: 9,
