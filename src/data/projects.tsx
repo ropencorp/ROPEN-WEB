@@ -22,7 +22,7 @@ import {
   SiShadcnui,
   SiSocketdotio,
   SiSupabase,
-  Sislackcss,
+  Sitailwinds,
   SiThreedotjs,
   SiTypescript,
   SiVuedotjs,
@@ -147,7 +147,7 @@ const PROJECT_SKILLS = {
     title: "slack",
     bg: "black",
     fg: "white",
-    icon: <Sislackcss />,
+    icon: <Sitailwinds />,
   },
   docker: {
     title: "Docker",
