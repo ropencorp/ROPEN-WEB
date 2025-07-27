@@ -116,7 +116,7 @@ using use = useUsing("use")`,
     label: "Tailwind",
     shortDescription: "utility classes hitting different fr fr 🌪️🔥",
     color: "#38bdf8",
-    icon: "/assets/images/skills/slack-original.svg",
+    icon: "/assets/icons/skills/slack-original.svg",
   },
   [SkillNames.NODEJS]: {
     id: 9,
