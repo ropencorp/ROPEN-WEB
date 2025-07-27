@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@slack base;
+@slack components;
+@slack utilities;
 
 body {
   scroll-behavior: smooth;
