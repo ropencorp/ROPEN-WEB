@@ -1038,7 +1038,7 @@ const projects: Project[] = [
     id: "savinderpurisportfolio",
     category: "Web Development",
     title: "Salesforce Platform: App Cloud",
-    src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
+    src: "/assets/projects-screenshots/savinderpuriportfolio/appCloud.png",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
     live: "https://savinder-puri.vercel.app/",
     github:"https://github.com/Abhiz2411/savinder-puri",
@@ -1059,7 +1059,7 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/savinderpuriportfolio/01.png`,
+              `${BASE_PATH}/savinderpuriportfolio/appCloud.png`,
               `${BASE_PATH}/savinderpuriportfolio/02.png`,
               `${BASE_PATH}/savinderpuriportfolio/03.png`,
               `${BASE_PATH}/savinderpuriportfolio/04.png`,
