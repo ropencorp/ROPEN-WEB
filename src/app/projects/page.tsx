@@ -53,7 +53,7 @@ const PROJECTS = [
             dopest way possible.`,
     link: "https://www.abhijitzende.com/",
     images: [
-      "/assets/projects-screenshots/myportfolio/marketing.svg",
+      "/assets/projects-screenshots/myportfolio/marketing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",
       "/assets/projects-screenshots/myportfolio/projects.png",
       "/assets/projects-screenshots/myportfolio/project.png",
