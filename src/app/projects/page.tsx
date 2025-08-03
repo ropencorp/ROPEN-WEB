@@ -25,7 +25,7 @@ const PROJECTS = [
   },
   {
     id: 2,
-    name: "financeme",
+    name: "Service Cloud", //financeme
     description: `This project demonstrates the deployment of a DevOps pipeline for a global banking and
             financial services provider, FinanceMe. The company transitioned from a monolithic 
             architecture to a microservice-based architecture to handle increased traffic and 
@@ -48,7 +48,7 @@ const PROJECTS = [
   },
   {
     id: 3,
-    name: "Portfolio",
+    name: "Marketing Cloud", //portfolio
     description: `Welcome to my digital playground, where creativity meets code in the
             dopest way possible.`,
     link: "https://www.abhijitzende.com/",
@@ -61,7 +61,7 @@ const PROJECTS = [
   },
   {
     id: 4,
-    name: "Smart Parking Assistant",
+    name: "Experience Cloud", //Smart Parking Assistant
     description: `Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
             and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
             that visualizes availability and an intelligent system for quick, optimal decisions. 

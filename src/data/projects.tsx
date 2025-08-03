@@ -802,10 +802,10 @@ const projects: Project[] = [
       );
     },
   },
-  { // 02. FinanceMe project
+  { // 02. Service Cloud
     id: "financeme",
     category: "DevOps in Banking and Finance",
-    title: "FinanceMe: Complete DevOps Capstone Project",
+    title: "Service Cloud",
     src: "/assets/projects-screenshots/financeme/1.png",
     screenshots: ["/assets/projects-screenshots/financeme/1.png"],
     skills: {
@@ -896,10 +896,10 @@ const projects: Project[] = [
       );
     },
   },
-  { // 03. Portfolio project
+  { // 03. Marketing Cloud - Portfolio project
     id: "portfolio",
     category: "Portfolio",
-    title: "My Portfolio",
+    title: "Marketing Cloud",
     src: "/assets/projects-screenshots/myportfolio/landing.png",
     screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
     live: "https://www.abhijitzende.com/",
@@ -962,10 +962,10 @@ const projects: Project[] = [
       );
     },
   },
-  { // 04. Smart parking assitant
+  { // 04. Experience Cloud - Smart parking assitant
     id: "smartparkingassitant",
     category: "IoT",
-    title: "Smart Parking Assistant",
+    title: "Experience Cloud",
     src: "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
     screenshots: ["01.jpeg", "03.png"],
     live: "https://github.com/Abhiz2411/smart-parking-assistant",
@@ -996,10 +996,10 @@ const projects: Project[] = [
       );
     },
   },
-  { // 05. Smart Job Tracker project
+  { // 05. E-Commerce Cloud Smart Job Tracker project
     id: "smartjobtracker",
     category: "Full stack",
-    title: "Smart Job Tracker",
+    title: "E-Commerce Cloud",
     src: "/assets/projects-screenshots/smartjobtracker/02.png",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
     live: "https://job-tracker-application-eight.vercel.app/",
@@ -1034,10 +1034,10 @@ const projects: Project[] = [
       );
     },
   },
-  { // 06. Savinder Puri portfolio project
+  { // 06. Salesforce Platform: App Cloud - Savinder Puri portfolio project
     id: "savinderpurisportfolio",
     category: "Web Development",
-    title: "Savinder Puri Portfolio",
+    title: "Salesforce Platform: App Cloud",
     src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
     live: "https://savinder-puri.vercel.app/",
