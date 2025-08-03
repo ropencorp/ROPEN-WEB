@@ -20,9 +20,9 @@ function MainPage() {
           </div>
           <HeroSection />
           <SkillsSection />
-          <ProjectsSection />
-          <ClientsCarousel />
+          <ProjectsSection />          
           <ContactSection />
+          <ClientsCarousel />
         </main>
       </SmoothScroll>
     </>

@@ -23,7 +23,7 @@ const clientLogos = [
 
 const ClientsCarousel = () => {
   return (
-    <section className="py-16 sm:py-24 bg-background">
+    <section className="py-16 sm:py-24 bg-transparent">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-bold text-center text-foreground mb-12">
           Empresas que confían en nosotros
