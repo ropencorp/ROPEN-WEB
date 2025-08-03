@@ -900,8 +900,8 @@ const projects: Project[] = [
     id: "portfolio",
     category: "Portfolio",
     title: "Marketing Cloud",
-    src: "/assets/projects-screenshots/myportfolio/landing.png",
-    screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
+    src: "/assets/projects-screenshots/myportfolio/marketing.svg",
+    screenshots: ["assets/projects-screenshots/myportfolio/marketing.svg"],
     live: "https://www.abhijitzende.com/",
     github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
     skills: {
@@ -935,7 +935,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/myportfolio/landing.png`,
+              `${BASE_PATH}/myportfolio/marketing.svg`,
               `${BASE_PATH}/portfolio/skills.png`,
             ]}
           />
