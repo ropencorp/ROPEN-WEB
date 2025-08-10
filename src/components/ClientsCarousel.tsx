@@ -18,6 +18,54 @@ const clientLogos = [
     src: "/assets/clientes/pngegg.png",
     alt: "Logo Cliente 2",
   },
+  {
+    src: "/assets/clientes/alleata.png",
+    alt: "Logo Cliente 3",
+  },
+  {
+    src: "/assets/clientes/moretti.png",
+    alt: "Logo Cliente 4",
+  },
+  {
+    src: "/assets/clientes/sirexbios.png",
+    alt: "Logo Cliente 5",
+  },
+  {
+    src: "/assets/clientes/quintino.png",
+    alt: "Logo Cliente 6",
+  },
+  {
+    src: "/assets/clientes/camiomendo.png",
+    alt: "Logo Cliente 7",
+  },
+  {
+    src: "/assets/clientes/bioendesa.png",
+    alt: "Logo Cliente 8",
+  },
+  {
+    src: "/assets/clientes/mandiocalogo.png",
+    alt: "Logo Cliente 9",
+  },
+  {
+    src: "/assets/clientes/oriunda.png",
+    alt: "Logo Cliente 10",
+  },
+  {
+    src: "/assets/clientes/Solutec.png",
+    alt: "Logo Cliente 11",
+  },
+  {
+    src: "/assets/clientes/porcelanosa.png",
+    alt: "Logo Cliente 12",
+  },
+  {
+    src: "/assets/clientes/APOLO-SIN-FONDO-PARA-FONDO-CLARO (1).png",
+    alt: "Logo Cliente 13",
+  },
+  {
+    src: "/assets/clientes/Guanacos.svg",
+    alt: "Logo Cliente 14",
+  },
   // Añade más logos según necesites
 ];
 
